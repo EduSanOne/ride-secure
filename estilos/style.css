@@ -2,19 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-size: 1em;
 }
 
-div#telaprincipal {
+.telaprincipal {
     background-image: linear-gradient(to top, rgb(111, 192, 212), rgb(59, 200, 235) );
-    padding: 30px;
-    display: flex;
+    padding: 40px;
+    display: block;
+    
 }
 
-div#telaprincipal > h1 {
+.telaprincipal > h1 {
    text-align: left;
    color: white;
    text-shadow: 1px 1px 5px rgb(44, 77, 85);
@@ -23,15 +24,21 @@ div#telaprincipal > h1 {
    display: inline;
 }
 
-nav#botoes {
-    display: flex;
+div#botoes {
+    text-align: right;
+    display: block;
+    margin: 0px;
+    padding: 0px;
 }
 
-nav#botoes > a {
-    display: inline;
+.telaprincipal a {
     text-decoration: none;
-    text-align: right;
+    color: white;
+    text-shadow: 1px 1px 5px rgb(44, 77, 85);
+   
 }
+
+
 
 
 
