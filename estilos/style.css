@@ -187,7 +187,7 @@ span#burguer {
     width: 100vw;
 
     display: block;
-    color: rgb(59, 200, 235);
+    color: black;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -195,7 +195,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: gray;
 }
 
 menu {
