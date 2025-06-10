@@ -68,11 +68,11 @@ section#login {
     overflow: hidden;
     font-size: 0.85em;
 
-    background-color: white;
+    background-color: black;
     width: 250px;
     height: 515px;
     border-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.425);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.363);
     
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
@@ -95,10 +95,12 @@ section#login > div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
+    color: white;
 }
 
 div#formulario > p {
     font-size: 1em;
+    color: white;
 }
 
 div.campo > label {
@@ -129,9 +131,9 @@ div.campo > input:focus-within {
 }
 
 form > div.campo {
-    background-color: #5f2c82;
+    background-color: black;
     width: 100%;
-    border: 2px solid #5f2c82; 
+    border: 2px solid black; 
     display: block;
     height: 40px;
     border-radius: 8px;
@@ -151,7 +153,8 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color: #295e5c;
+    background-color: white;
+    color: black;
 }
 
 form > a.botao {
@@ -162,16 +165,16 @@ form > a.botao {
     margin-top: 5px;
     width: 100%;
     height: 40px;
-    background-color: white;
-    color: #295e5c;
+    background-color: black;
+    color: white;
     border: 1px solid #49a09d;
     border-radius: 5px;
     text-decoration: none;
 }
 
 form > a.botao:hover {
-    background-color: #295e5c;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 
@@ -184,7 +187,6 @@ form > a.botao > span {
 span#burguer {
     background-color: white;
     width: 100vw;
-
     display: block;
     color: black;
     text-align: center;
@@ -193,8 +195,15 @@ span#burguer {
     box-shadow: 1px 1px rgba(0, 0, 0, 0.021);
 }
 
+menu#itens a {
+    margin: 5px;
+    display: inline-block;
+    transition: none;
+}
+
 span#burguer:hover {
     background-color: gray;
+    width: 100vw;
 }
 
 menu {
@@ -207,9 +216,9 @@ menu li {
     font-size: 1.1em;
 }
 
-menu a:hover {
-    background-color: rgba(0, 0, 0, 0.308);
-    padding: 3px;
+menu#itens a:hover {
+    background-color: white;
+    color: black;
     border-radius: 5px;
 }
 
