@@ -9,7 +9,7 @@
 }
 
 .telaprincipal {
-    background-image: linear-gradient(to top, rgb(0, 0, 20), rgb(0, 0, 100) );
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(30, 30, 30) );
     display: block;
     padding-bottom: 10px;
 }
