@@ -11,14 +11,15 @@
 .telaprincipal {
     background-image: linear-gradient(to top, rgb(111, 192, 212), rgb(59, 200, 235) );
     display: block;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .telaprincipal > h1 {
    text-align: center;
    color: white;
    text-shadow: 1px 1px 5px rgb(44, 77, 85);
-   font-size: 3em;
+   font-size: 4em;
+   padding: 20px;
    font-family: "Audiowide";
    display: block;
 }
@@ -183,7 +184,7 @@ form > a.botao > span {
 span#burguer {
     background-color: white;
     width: 100vw;
-    height: 40px;
+
     display: block;
     color: rgb(59, 200, 235);
     text-align: center;
@@ -206,12 +207,19 @@ menu li {
     font-size: 1.1em;
 }
 
+menu a:hover {
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 3px;
+    border-radius: 5px;
+}
+
 footer {
     display: block;
     text-align: center;
-    background-color: rgb(59, 200, 235) ;
+    background-color: rgb(49, 167, 197) ;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.4m;
+    padding: 10px;
     text-shadow: 1px 1px 2px black;
 }
     
