@@ -103,6 +103,7 @@ div#formulario > p {
     color: white;
 }
 
+
 div.campo > label {
     display: none;
 }
@@ -133,7 +134,7 @@ div.campo > input:focus-within {
 form > div.campo {
     background-color: black;
     width: 100%;
-    border: 2px solid black; 
+    border: 1px solid white; 
     display: block;
     height: 40px;
     border-radius: 8px;
@@ -148,7 +149,7 @@ form > input[type=submit] {
     background-color: #49a09d;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
 }
 
@@ -168,7 +169,7 @@ form > a.botao {
     background-color: black;
     color: white;
     border: 1px solid #49a09d;
-    border-radius: 5px;
+    border-radius: 3px;
     text-decoration: none;
 }
 
